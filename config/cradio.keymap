@@ -38,7 +38,7 @@
                 &kp Q       &kp W       &kp F       &kp P           &kp B         &kp J             &kp L          &kp U          &kp Y        &kp SEMICOLON
                 &hm LSHFT A &kp R       &kp S       &lt R_SYM_L T   &kp G         &kp M             &lt L_SYM_L N  &lt NAV_L E    &lt NUM_L I  &hm LSHFT O
                 &kp Z       &hm LCTRL X &hm LALT C  &kp D           &kp V         &kp K             &kp H          &hm LALT COMMA &hm LCTL DOT &kp FSLH
-                                                    &kp LC(C)  &kp BKSP      &lt EXTRA_L SPACE &kp LC(B)
+                                                    &kp LC(C)  &kp BKSP      &lt EXTRA_L SPACE &kp LC(RBKT)
             >;
         };
 
@@ -91,7 +91,7 @@
             bindings = <
                 &trans     &kp ESC      &kp COLON   &trans          &trans       &trans            &trans         &trans      &trans     &kp DEL
                 &trans     &kp PERCENT  &kp FSLH    &kp RET         &kp EXCL     &trans            &kp LGUI       &trans      &trans     &trans
-                &trans     &trans       &trans      &trans          &trans       &trans            &trans         &trans      &trans     &trans
+                &bt BT_CLR &bt BT_NXT   &bt BT_PRV  &trans          &trans       &trans            &trans         &trans      &trans     &trans
                                                     &trans          &trans       &none             &trans
             >;
         };
