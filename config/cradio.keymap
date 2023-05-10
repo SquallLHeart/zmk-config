@@ -91,7 +91,7 @@
             bindings = <
                 &trans     &kp ESC      &kp COLON   &trans          &trans       &trans            &trans         &trans      &trans     &kp DEL
                 &trans     &kp PERCENT  &kp FSLH    &kp RET         &kp EXCL     &trans            &kp LGUI       &trans      &trans     &trans
-                &bt BT_CLR &bt BT_NXT   &bt BT_PRV  &kp TAB         &trans       &trans            &trans         &trans      &trans     &trans
+                &trans     &trans       &trans      &kp TAB         &trans       &trans            &trans         &trans      &trans     &trans
                                                     &trans          &trans       &none             &trans
             >;
         };
